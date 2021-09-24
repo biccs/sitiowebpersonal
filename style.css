@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #41292C;
+    color: #F2FDFF;
+    height: 100px;
+    position: relative;
+    box-shadow: 5px 4px 10px rgb(59, 58, 58);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+nav {
+    float: left;
+    width: 200px;
+    height: 750px;
+    background-color: #395e66;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #395e66;
+
+}
+
+nav ul li {
+    text-align: center;
+    height: 60px;
+}
+
+nav ul li a {
+    display: block;
+    color: #F2FDFF;
+    padding: 18px 16px 8px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+li:hover {
+    background-color: #32545c;
+  }
+
+.active {
+    background-color: #32545c;
+}
+
+main {
+    position: relative;
+    margin-left: 200px;
+    height: 750px; 
+    background-color: #F2FDFF;
+    overflow: auto;
+    font-family: 'Varela Round', sans-serif;
+    color: #07020D;
+    text-align: center;
+}
+
+#bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 20px 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#bubble img {
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 25px;
+}
+
+#bubble h1, p {
+    border-radius: 5px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+main h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+main h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: #eb9486;
+    height: 130px;
+    overflow-y: auto;
+    box-shadow: 0 10px 5px 10px #07020D;
+}
+
+footer img {
+    position: inherit;
+    width: 50px;
+    margin-left: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+
+footer p {
+    color: #F2FDFF;
+    font-weight: 555;
+    width: 180px;
+    margin-left: 55%;
+    margin-top: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.styled-table{
+margin: auto;
+background-color:#395e66;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.styled-table td {
+    padding: 4px 8px;
+    text-align: center;
+    border-style: solid;
+    background-color: #32545c;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} 
+
+.styled-table th {
+    border-style: solid;
+    padding: 8px 16px;
+    background-color: #32545c;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#text {
+    font-size: 10px;
+    border-style: none;
+    background-color: #32545c;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+main form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 20px 16px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #395e66;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #32545c;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  
